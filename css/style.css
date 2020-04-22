@@ -1,0 +1,231 @@
+/*
+Template Name: LU93 Responsive HTML5/CSS3 Music Association Template
+Author: AdrienTasic
+Author URI: www.tasticad.com
+Description: LU93 Responsive HTML5/CSS3 Event Template
+Version: 1.0
+Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive, html5, css3
+*/
+/*=== MEDIA QUERY ===*/
+:root {
+	--white: rgb(255,255,255);
+	--black: rgb(51,51,51);
+	--grey: rgb(247,247,247);
+	--grey2: rgb(231,231,231);
+	--grey3: rgb(157,157,157);
+	--burgundy: rgb(179,17,25);
+	--lu93Serif: 'Lora', serif;
+	--lu93Sans1: 'Open Sans', sans-serif;
+	--lu93Sans2: 'Roboto', sans-serif;
+	--careSans: 'Fira Sans Condensed', sans-serif;
+	--fontBold: 'Fira Sans Condensed', sans-serif;
+	--anim1: cubic-bezier(.5,0,0,1)
+} 
+html {
+}
+
+body {
+	background-color: var(--white); /* grey: E5E7E6 DAD6D6 B7B5B3; dark: 333745 */
+	font-family: var(--lu93Sans1);
+	color: #080808;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1 {
+	font-family: var(--lu93Serif);
+	font-weight: 800;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--lu93Sans1);
+	font-weight: 800;
+}
+
+p {
+	font-family: var(--lu93Sans1);
+	/* font-size: 1.25rem; */
+}
+
+[scroll-behavior=smooth] {
+	scroll-behavior: smooth;
+}
+
+pre {
+	color: #afbac4;
+}
+
+/*=================================================================
+	Basic Setup
+==================================================================*/
+::-moz-selection {
+	/* Code for Firefox */
+	color: #fff;
+	background: var(--burgundy);
+}
+
+::selection {
+	color: #fff;
+	background: var(--burgundy);
+}
+
+hr {
+	border-top: 1px solid rgba(255, 255, 255, .1);
+}
+
+figure {
+	margin: 0;
+}
+
+a {
+	color: #fff;
+	transition: all .3s ease-in 0s;
+	text-decoration: none;
+	line-height: inherit;
+	cursor: pointer;
+}
+
+iframe {
+	border: 0;
+}
+
+a,
+a:focus,
+a:hover {
+	text-decoration: none;
+	outline: 0;
+}
+
+a:focus,
+a:hover {
+	color: var(--white);
+}
+
+figure {
+	margin: 0;
+}
+
+a {
+	transition: all .2s ease-in 0s;
+}
+
+iframe {
+	border: 0;
+}
+
+a,
+a:focus,
+a:hover {
+	text-decoration: none;
+	outline: 0;
+}
+
+.padding-0 {
+	padding: 0 !important;
+}
+
+.section { /*
+	min-height: 100vh;
+	align-items: center; */
+	display: flex;
+	justify-content: center;
+	padding: 80px 0 0;
+}
+
+@media (max-width: 480px) {
+	.section {
+		padding: 50px 0;
+	}
+}
+
+@media (max-width: 768px) {
+	.section {
+		padding: 80px 0;
+	}
+}
+
+/*=================================================================
+	Intro section
+==================================================================*/
+.preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #080808;
+	z-index: 9999;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.preloader .preload-logo {
+	height: 150px;
+	width: 150px;
+	margin-bottom: 17.6em;
+}
+
+.intro-area:before {
+	content: '';
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.intro-area .block {
+	text-align: center;
+	z-index: 99;
+}
+
+.intro-area .block .intro-icon {
+	display: inline-block;
+	height: 150px;
+	width: 150px;
+	margin-bottom: 20px;
+}
+@media (max-width: 480px) {
+	.intro-area .block .intro-icon {
+		height: 120px;
+		width: 120px;
+	}
+}
+
+.intro-area .block h1 {
+	font-size: 7vw;
+	color: whitesmoke;
+	text-transform: capitalize;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+.intro-area .block p {
+	font-family: var(--lu93Serif);
+	font-weight: 700;
+	color: white; /* var(--burgundy) */
+	font-size: 3em;
+	width: 70%;
+	margin: 0 auto;
+}
+@media (max-width: 850px), (max-height: 400px), (orientation: portrait) {
+	.intro-area .block h1 {
+		font-size: 65px;
+	}
+	.intro-area .block p {
+		font-size: 28px;
+	}
+}
+
+.intro-area .block .btn-transparent {
+	margin-top: 40px;
+	border-color: #fff;
+	padding: 14px 50px;
+	font-size: 18px;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}

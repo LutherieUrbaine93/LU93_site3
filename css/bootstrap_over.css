@@ -1,0 +1,138 @@
+
+/*=================================================================
+	Bootstrap overwrites
+==================================================================*/
+#intro {
+    background-color: dimgray
+}
+
+#intro .row,
+#intro .row .h1 {
+    height: 33.3vh;
+}
+#intro .row .h2 {
+    height: 66.6vh;
+}
+@media (max-width: 960px) {
+    #intro .row .h2 {
+        height: 33.3vh;
+    }
+}
+
+.col-a, .col-sm-a, .col-md-a, .col-lg-a, .col-xl-a {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px !important;
+}
+.col-a {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+@media (min-width: 540px) {
+    .col-sm-a {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+@media (min-width: 720px) {
+    .col-md-a {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+@media (min-width: 960px) {
+    .col-lg-a {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+@media (min-width: 1140px) {
+    .col-xl-a {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+.col-b, .col-sm-b, .col-md-b, .col-lg-b, .col-xl-b {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px !important;
+}
+.col-b {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 40%;
+    flex: 0 0 40%;
+    max-width: 40%;
+}
+@media (min-width: 540px) {
+    .col-sm-b {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+}
+@media (min-width: 720px) {
+    .col-md-b {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+}
+@media (min-width: 960px) {
+    .col-lg-b {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+}
+@media (min-width: 1140px) {
+    .col-xl-b {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+}
+
+.offset-b {
+    margin-left: 40%;
+}
+@media (min-width: 540px) {
+    .offset-sm-b {
+    	margin-left: 40%;
+    }
+}
+@media (min-width: 720px) {
+    .offset-md-b {
+    	margin-left: 40%;
+    }
+}
+@media (min-width: 960px) {
+    .offset-lg-b {
+    	margin-left: 40%;
+    }
+}
+@media (min-width: 1140px) {
+    .offset-xl-b {
+    	margin-left: 40%;
+    }
+}
+
+#intro .box {
+    height: 100%;
+}
