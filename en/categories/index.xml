@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Lutherie Urbaine 9.3</title>
-    <link>https://lutherieurbaine93.github.io/LU93_site3/categories/</link>
+    <link>https://lutherieurbaine93.github.io/LU93_site3/en/categories/</link>
     <description>Recent content in Categories on Lutherie Urbaine 9.3</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-fr</language>
+    <language>en-us</language>
     
-	<atom:link href="https://lutherieurbaine93.github.io/LU93_site3/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lutherieurbaine93.github.io/LU93_site3/en/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

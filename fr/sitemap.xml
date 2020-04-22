@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://lutherieurbaine93.github.io/LU93_site3/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lutherieurbaine93.github.io/LU93_site3/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://lutherieurbaine93.github.io/LU93_site3/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lutherieurbaine93.github.io/LU93_site3/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lutherieurbaine93.github.io/LU93_site3/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://lutherieurbaine93.github.io/LU93_site3/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lutherieurbaine93.github.io/LU93_site3/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lutherieurbaine93.github.io/LU93_site3/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://lutherieurbaine93.github.io/LU93_site3/tags/"
+                />
+  </url>
+  
+</urlset>
