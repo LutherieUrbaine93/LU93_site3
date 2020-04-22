@@ -7,14 +7,14 @@
 }
 
 #intro .row,
-#intro .row .h1 {
+#intro .row .hgt-a {
     height: 33.3vh;
 }
-#intro .row .h2 {
+#intro .row .hgt-b {
     height: 66.6vh;
 }
 @media (max-width: 960px) {
-    #intro .row .h2 {
+    #intro .row .hgt-b {
         height: 33.3vh;
     }
 }
