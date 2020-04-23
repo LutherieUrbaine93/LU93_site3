@@ -3,6 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lutherieurbaine93.github.io/LU93_site3/en/about/</loc>
+    <lastmod>2020-04-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://lutherieurbaine93.github.io/LU93_site3/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lutherieurbaine93.github.io/LU93_site3/en/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lutherieurbaine93.github.io/LU93_site3/en/</loc>
+    <lastmod>2020-04-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://lutherieurbaine93.github.io/LU93_site3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lutherieurbaine93.github.io/LU93_site3/en/"
+                />
+  </url>
+  
+  <url>
     <loc>https://lutherieurbaine93.github.io/LU93_site3/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -13,20 +43,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://lutherieurbaine93.github.io/LU93_site3/en/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://lutherieurbaine93.github.io/LU93_site3/en/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://lutherieurbaine93.github.io/LU93_site3/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://lutherieurbaine93.github.io/LU93_site3/en/"
                 />
   </url>
   
