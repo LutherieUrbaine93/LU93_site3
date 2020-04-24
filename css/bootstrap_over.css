@@ -171,11 +171,11 @@ body {
 	color: #212121;
 }
 
-@media (max-width: 540px) {
+@media only screen and (max-device-width: 540px) {
 	#table .row {
 		height: 450px;
 	}
-	#table .row:nth-child(2) {
+	#table .row:nth-child(3) {
 		height: 300px;
 	}
 	#table .row .hgt-a,
@@ -184,6 +184,21 @@ body {
 	}
 	.col-a, .col-sm-a, .col-md-a, .col-lg-a, .col-xl-a {
 		width: 100%;
+	}
+	.show-mobile {
+		display: block;
+	}
+	.hide-mobile {
+		display: none;
+	}
+}
+
+@media only screen and (min-device-width: 541px) {
+	.show-mobile {
+		display: none;
+	}
+	.hide-mobile {
+		display: flex;
 	}
 }
 
@@ -203,19 +218,19 @@ body {
 	#table .row:nth-child(1) div:nth-child(3) .box:hover {
 		margin: -12px 0 0 12px;
 	}
-	#table .row:nth-child(2) div:nth-child(1) .box:hover {
+	#table .row:nth-child(3) div:nth-child(1) .box:hover { /* (3) because the "row show-mobile" is (2) */
 		margin: 12px 0 0 0;
-	}
-	#table .row:nth-child(2) div:nth-child(2) .box:hover {
-		margin: 0 0 0 12px;
-	}
-	#table .row:nth-child(3) div:nth-child(1) .box:hover {
-		margin: 12px 0 0 -12px;
 	}
 	#table .row:nth-child(3) div:nth-child(2) .box:hover {
+		margin: 0 0 0 12px;
+	}
+	#table .row:nth-child(4) div:nth-child(1) .box:hover {
+		margin: 12px 0 0 -12px;
+	}
+	#table .row:nth-child(4) div:nth-child(2) .box:hover {
 		margin: 12px 0 0 0;
 	}
-	#table .row:nth-child(3) div:nth-child(3) .box:hover {
+	#table .row:nth-child(4) div:nth-child(3) .box:hover {
 		margin: 12px 0 0 12px;
 	}
 }
