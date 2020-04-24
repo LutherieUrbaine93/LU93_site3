@@ -17,17 +17,20 @@ jQuery(function ($) {
 	/* ========================================================================= */
 	/*  Sound effects
 	/* =========================================================================  */
-	/* === for random played sound-:
+	
 	$(".box").mouseenter(function() {
 			$("#sound-" + Math.ceil(Math.random() * 7))[0].play();
-	}); ===  */
-	
-	var sound = $("#sound-")[0];
-	$(".box").mouseenter(function() {
-		sound.pause();
-		sound.play();
 	});
-
+	
+	/* === in order played sound-:
+	$( document ).ready(function() {
+		var sound = $("#sound-")[0];
+		$(".box").mouseover(function() {
+			sound.pause();
+			sound.play();
+		});
+	});
+===  */
 
 /* ============================== end script ================================= */
 });
