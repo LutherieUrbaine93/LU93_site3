@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lutherieurbaine93.github.io/LU93_site3/news/</loc>
+    <lastmod>2020-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lutherieurbaine93.github.io/LU93_site3/audio_video/</loc>
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
   </url>
@@ -18,17 +23,7 @@
   </url>
   
   <url>
-    <loc>https://lutherieurbaine93.github.io/LU93_site3/music_instruments/</loc>
-    <lastmod>2020-04-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lutherieurbaine93.github.io/LU93_site3/press/</loc>
-    <lastmod>2020-04-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lutherieurbaine93.github.io/LU93_site3/news/</loc>
+    <loc>https://lutherieurbaine93.github.io/LU93_site3/instrumentarium/</loc>
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
   </url>
   
@@ -45,6 +40,11 @@
                 hreflang="fr"
                 href="https://lutherieurbaine93.github.io/LU93_site3/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://lutherieurbaine93.github.io/LU93_site3/press/</loc>
+    <lastmod>2020-04-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>

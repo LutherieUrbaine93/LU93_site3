@@ -12,7 +12,16 @@
     
     
     <item>
-      <title>Audio-vidéo</title>
+      <title>Actualités</title>
+      <link>https://lutherieurbaine93.github.io/LU93_site3/news/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://lutherieurbaine93.github.io/LU93_site3/news/</guid>
+      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</description>
+    </item>
+    
+    <item>
+      <title>Audio Vidéo</title>
       <link>https://lutherieurbaine93.github.io/LU93_site3/audio_video/</link>
       <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -30,7 +39,7 @@
     </item>
     
     <item>
-      <title>Des créations tous terrains</title>
+      <title>Créations tous terrains</title>
       <link>https://lutherieurbaine93.github.io/LU93_site3/off_road_creations/</link>
       <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -39,16 +48,16 @@
     </item>
     
     <item>
-      <title>Des instruments de musique</title>
-      <link>https://lutherieurbaine93.github.io/LU93_site3/music_instruments/</link>
+      <title>Instrumentarium</title>
+      <link>https://lutherieurbaine93.github.io/LU93_site3/instrumentarium/</link>
       <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://lutherieurbaine93.github.io/LU93_site3/music_instruments/</guid>
+      <guid>https://lutherieurbaine93.github.io/LU93_site3/instrumentarium/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</description>
     </item>
     
     <item>
-      <title>La presse</title>
+      <title>Presse</title>
       <link>https://lutherieurbaine93.github.io/LU93_site3/press/</link>
       <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -57,16 +66,7 @@
     </item>
     
     <item>
-      <title>Les actualités</title>
-      <link>https://lutherieurbaine93.github.io/LU93_site3/news/</link>
-      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://lutherieurbaine93.github.io/LU93_site3/news/</guid>
-      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</description>
-    </item>
-    
-    <item>
-      <title>Une pédagogie de la création</title>
+      <title>Pédagogie de la création</title>
       <link>https://lutherieurbaine93.github.io/LU93_site3/creation_pedagogy/</link>
       <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
       
