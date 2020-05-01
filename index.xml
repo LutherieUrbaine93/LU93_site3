@@ -12,74 +12,146 @@
     
     
     <item>
-      <title>Actualités</title>
-      <link>https://lutherieurbaine93.github.io/LU93_site3/news/</link>
+      <title>About</title>
+      <link>https://lutherieurbaine93.github.io/LU93_site3/english/about/</link>
       <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://lutherieurbaine93.github.io/LU93_site3/news/</guid>
+      <guid>https://lutherieurbaine93.github.io/LU93_site3/english/about/</guid>
+      <description>Text in English, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</description>
+    </item>
+    
+    <item>
+      <title>Actualités</title>
+      <link>https://lutherieurbaine93.github.io/LU93_site3/french/news/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://lutherieurbaine93.github.io/LU93_site3/french/news/</guid>
+      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</description>
+    </item>
+    
+    <item>
+      <title>Audio Video</title>
+      <link>https://lutherieurbaine93.github.io/LU93_site3/english/audio_video/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://lutherieurbaine93.github.io/LU93_site3/english/audio_video/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</description>
     </item>
     
     <item>
       <title>Audio Vidéo</title>
-      <link>https://lutherieurbaine93.github.io/LU93_site3/audio_video/</link>
+      <link>https://lutherieurbaine93.github.io/LU93_site3/french/audio_video/</link>
       <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://lutherieurbaine93.github.io/LU93_site3/audio_video/</guid>
+      <guid>https://lutherieurbaine93.github.io/LU93_site3/french/audio_video/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</description>
     </item>
     
     <item>
       <title>Contacts</title>
-      <link>https://lutherieurbaine93.github.io/LU93_site3/contacts/</link>
+      <link>https://lutherieurbaine93.github.io/LU93_site3/english/contacts/</link>
       <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://lutherieurbaine93.github.io/LU93_site3/contacts/</guid>
+      <guid>https://lutherieurbaine93.github.io/LU93_site3/english/contacts/</guid>
+      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</description>
+    </item>
+    
+    <item>
+      <title>Contacts</title>
+      <link>https://lutherieurbaine93.github.io/LU93_site3/french/contacts/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://lutherieurbaine93.github.io/LU93_site3/french/contacts/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</description>
     </item>
     
     <item>
       <title>Créations tous terrains</title>
-      <link>https://lutherieurbaine93.github.io/LU93_site3/off_road_creations/</link>
+      <link>https://lutherieurbaine93.github.io/LU93_site3/french/off_road_creations/</link>
       <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://lutherieurbaine93.github.io/LU93_site3/off_road_creations/</guid>
+      <guid>https://lutherieurbaine93.github.io/LU93_site3/french/off_road_creations/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</description>
     </item>
     
     <item>
       <title>Instrumentarium</title>
-      <link>https://lutherieurbaine93.github.io/LU93_site3/instrumentarium/</link>
+      <link>https://lutherieurbaine93.github.io/LU93_site3/english/instrumentarium/</link>
       <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://lutherieurbaine93.github.io/LU93_site3/instrumentarium/</guid>
+      <guid>https://lutherieurbaine93.github.io/LU93_site3/english/instrumentarium/</guid>
+      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</description>
+    </item>
+    
+    <item>
+      <title>Instrumentarium</title>
+      <link>https://lutherieurbaine93.github.io/LU93_site3/french/instrumentarium/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://lutherieurbaine93.github.io/LU93_site3/french/instrumentarium/</guid>
+      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</description>
+    </item>
+    
+    <item>
+      <title>News</title>
+      <link>https://lutherieurbaine93.github.io/LU93_site3/english/news/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://lutherieurbaine93.github.io/LU93_site3/english/news/</guid>
+      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</description>
+    </item>
+    
+    <item>
+      <title>Offroad creation</title>
+      <link>https://lutherieurbaine93.github.io/LU93_site3/english/off_road_creations/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://lutherieurbaine93.github.io/LU93_site3/english/off_road_creations/</guid>
+      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</description>
+    </item>
+    
+    <item>
+      <title>Pedagogy of the creation</title>
+      <link>https://lutherieurbaine93.github.io/LU93_site3/english/creation_pedagogy/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://lutherieurbaine93.github.io/LU93_site3/english/creation_pedagogy/</guid>
+      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</description>
+    </item>
+    
+    <item>
+      <title>Press</title>
+      <link>https://lutherieurbaine93.github.io/LU93_site3/english/press/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://lutherieurbaine93.github.io/LU93_site3/english/press/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</description>
     </item>
     
     <item>
       <title>Presse</title>
-      <link>https://lutherieurbaine93.github.io/LU93_site3/press/</link>
+      <link>https://lutherieurbaine93.github.io/LU93_site3/french/press/</link>
       <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://lutherieurbaine93.github.io/LU93_site3/press/</guid>
+      <guid>https://lutherieurbaine93.github.io/LU93_site3/french/press/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</description>
     </item>
     
     <item>
       <title>Pédagogie de la création</title>
-      <link>https://lutherieurbaine93.github.io/LU93_site3/creation_pedagogy/</link>
+      <link>https://lutherieurbaine93.github.io/LU93_site3/french/creation_pedagogy/</link>
       <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://lutherieurbaine93.github.io/LU93_site3/creation_pedagogy/</guid>
+      <guid>https://lutherieurbaine93.github.io/LU93_site3/french/creation_pedagogy/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</description>
     </item>
     
     <item>
       <title>À propos</title>
-      <link>https://lutherieurbaine93.github.io/LU93_site3/about/</link>
+      <link>https://lutherieurbaine93.github.io/LU93_site3/french/about/</link>
       <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://lutherieurbaine93.github.io/LU93_site3/about/</guid>
+      <guid>https://lutherieurbaine93.github.io/LU93_site3/french/about/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</description>
     </item>
     

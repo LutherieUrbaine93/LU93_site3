@@ -10,9 +10,9 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 :root {
 	--white: rgb(255,255,255);
 	--black: rgb(51,51,51);
-	--grey: rgb(247,247,247);
+	--grey: rgb(186,186,186);
 	--grey2: rgb(231,231,231);
-	--grey3: rgb(157,157,157);
+	--grey3: rgb(247,247,247);
 	--burgundy: rgb(179,17,25);
 	--lu93Serif: 'Lora', serif;
 	--lu93Sans1: 'Open Sans', sans-serif;
@@ -25,7 +25,7 @@ html {
 }
 
 body {
-	background-color: var(--white); /* grey: E5E7E6 DAD6D6 B7B5B3; dark: 333745 */
+	background-color: #212121; /* grey: E5E7E6 DAD6D6 B7B5B3; dark: 333745 */
 	font-family: var(--lu93Sans1);
 	color: #080808;
 	-webkit-font-smoothing: antialiased;
@@ -150,24 +150,6 @@ a:hover {
 /*=================================================================
 	Intro section
 ==================================================================*/
-.preloader {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background-color: #080808;
-	z-index: 9999;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-.preloader .preload-logo {
-	height: 150px;
-	width: 150px;
-	margin-bottom: 17.6em;
-}
-
 .intro-area:before {
 	content: '';
 	background: rgba(0, 0, 0, 0.5);
@@ -228,4 +210,13 @@ a:hover {
 	font-size: 16px;
 	font-weight: bold;
 	letter-spacing: 1px;
+}
+
+
+
+/*=================================================================
+	TEMP TEMP TEMP TEMP TEMP TEMP TEMP TEMP TEM
+==================================================================*/
+h1, p, li {
+	color: whitesmoke;
 }

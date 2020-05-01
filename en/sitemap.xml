@@ -8,7 +8,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://lutherieurbaine93.github.io/LU93_site3/about/"
+                href="https://lutherieurbaine93.github.io/LU93_site3/fr/about/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -18,11 +18,61 @@
   </url>
   
   <url>
+    <loc>https://lutherieurbaine93.github.io/LU93_site3/en/audio_video/</loc>
+    <lastmod>2020-04-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://lutherieurbaine93.github.io/LU93_site3/fr/audio_video/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lutherieurbaine93.github.io/LU93_site3/en/audio_video/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lutherieurbaine93.github.io/LU93_site3/en/contacts/</loc>
+    <lastmod>2020-04-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://lutherieurbaine93.github.io/LU93_site3/fr/contacts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lutherieurbaine93.github.io/LU93_site3/en/contacts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lutherieurbaine93.github.io/LU93_site3/en/instrumentarium/</loc>
+    <lastmod>2020-04-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://lutherieurbaine93.github.io/LU93_site3/fr/instrumentarium/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lutherieurbaine93.github.io/LU93_site3/en/instrumentarium/"
+                />
+  </url>
+  
+  <url>
     <loc>https://lutherieurbaine93.github.io/LU93_site3/en/</loc>
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
+                href="https://lutherieurbaine93.github.io/LU93_site3/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ss"
                 href="https://lutherieurbaine93.github.io/LU93_site3/"
                 />
     <xhtml:link
@@ -33,10 +83,75 @@
   </url>
   
   <url>
+    <loc>https://lutherieurbaine93.github.io/LU93_site3/en/news/</loc>
+    <lastmod>2020-04-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://lutherieurbaine93.github.io/LU93_site3/fr/news/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lutherieurbaine93.github.io/LU93_site3/en/news/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lutherieurbaine93.github.io/LU93_site3/en/off_road_creations/</loc>
+    <lastmod>2020-04-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://lutherieurbaine93.github.io/LU93_site3/fr/off_road_creations/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lutherieurbaine93.github.io/LU93_site3/en/off_road_creations/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lutherieurbaine93.github.io/LU93_site3/en/creation_pedagogy/</loc>
+    <lastmod>2020-04-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://lutherieurbaine93.github.io/LU93_site3/fr/creation_pedagogy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lutherieurbaine93.github.io/LU93_site3/en/creation_pedagogy/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lutherieurbaine93.github.io/LU93_site3/en/press/</loc>
+    <lastmod>2020-04-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://lutherieurbaine93.github.io/LU93_site3/fr/press/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lutherieurbaine93.github.io/LU93_site3/en/press/"
+                />
+  </url>
+  
+  <url>
     <loc>https://lutherieurbaine93.github.io/LU93_site3/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
+                href="https://lutherieurbaine93.github.io/LU93_site3/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ss"
                 href="https://lutherieurbaine93.github.io/LU93_site3/categories/"
                 />
     <xhtml:link
@@ -51,6 +166,11 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
+                href="https://lutherieurbaine93.github.io/LU93_site3/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ss"
                 href="https://lutherieurbaine93.github.io/LU93_site3/tags/"
                 />
     <xhtml:link
