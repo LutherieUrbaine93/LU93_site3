@@ -10,10 +10,22 @@ jQuery(function ($) {
 	});
 
 
+	/* ========================================================================= */
+	/*  Lazy load initialize
+	/* ========================================================================= */
 
-	// lazy load initialize
 	const observer = lozad(); // lazy loads elements with default selector as ".lozad"
 	observer.observe();
+
+
+	/* ========================================================================= */
+	/*  MDB Lightbox Init
+	/* ========================================================================= */
+
+	$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+		event.preventDefault();
+		$(this).ekkoLightbox();
+	});
 
 	/* ========================================================================= */
 	/*  Sound effects
@@ -43,6 +55,31 @@ jQuery(function ($) {
 		$("#sound-" + $(this).data("sound"))[0].play();
 	});
 	$("#sound-").attr("id", "sound-0");
+
+
+	/* ========================================================================= */
+	/*  Image gallery responsive
+	/* =========================================================================  */
+
+	$(function() {
+		
+		var selectedClass = "";
+
+		$(".filter").click(function() {
+
+			selectedClass = $(this).attr("data-rel");
+			$("#gallery").fadeTo(100, 0.1);
+			$("#gallery div").not("."+selectedClass).fadeOut().removeClass('animation');
+
+			setTimeout(function() {
+
+				$("."+selectedClass).fadeIn().addClass('animation');
+				$("#gallery").fadeTo(300, 1);
+
+			}, 300);
+
+		});
+	});
 
 
 /* ============================== end script ================================= */
