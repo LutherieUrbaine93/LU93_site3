@@ -203,6 +203,7 @@ a:hover {
 	text-align:center;
 	align-items: center;
 	justify-content: center;
+	border-radius: .125rem;
 	box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 1);
 	margin: 0; /* this for transition */
 	-webkit-transition: margin .1s ease-out;
