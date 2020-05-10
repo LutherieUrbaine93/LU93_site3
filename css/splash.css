@@ -12,14 +12,10 @@
 	--careSans: 'Fira Sans Condensed', sans-serif;
 	--fontBold: 'Fira Sans Condensed', sans-serif;
 	--anim1: cubic-bezier(.5,0,0,1)
-} 
+}
 
 .splash {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
+	height: 100vh;
 	background-color: #212121;
 	z-index: 9999;
 	display: flex;
@@ -66,29 +62,42 @@
 	animation-fill-mode: forwards;
 }
 @keyframes logo-title { 0%, 20% { opacity:0 } 50%, 100% { opacity:1; } }
+.splash #subtitle {
+	opacity: 0;
+	animation: logo-subtitle ease-out 4s;
+	animation-fill-mode: forwards;
+}
+@keyframes logo-subtitle { 0%, 25% { opacity:0 } 50%, 100% { opacity:1; } }
 
 
 /******** Lang buttons *********/
-#title {
+#title, #subtitle {
 	font-family: var(--lu93Serif);
-	font-size: 3.8em;
-	line-height: .5em;
 	color: var(--grey);
 	text-align: center;
-	margin-bottom: 45px;
+}
+#title {
+	font-size: 3.8em;
+	margin-bottom: .25em;
+}
+#subtitle {
+	font-size: 2.45em;
+	margin-bottom: 25px;
 }
 @media (max-width: 991px) {
 	#title {
 		font-size: 3em;
-		line-height: 1em;
-		margin-bottom: 30px;
+	}
+	#subtitle {
+		font-size: 1.8em;
+		margin-bottom: .5em;
 	}
 }
 
 /******** Lang buttons *********/
 .languages > .col-lg-2 {
 	position: relative;
-	margin-top: 2em;
+	margin-top: 1em;
 	text-align: center; /** center buttons **/
 }
 

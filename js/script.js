@@ -11,7 +11,7 @@ jQuery(function ($) {
 
 
 	/* ========================================================================= */
-	/*  Lazy load initialize
+	/*  Lazy load initialize (???)
 	/* ========================================================================= */
 
 	const observer = lozad(); // lazy loads elements with default selector as ".lozad"
@@ -19,14 +19,31 @@ jQuery(function ($) {
 
 
 	/* ========================================================================= */
-	/*  MDB Lightbox Init
+	/*  Enable tooltips everywhere
 	/* ========================================================================= */
 
-	$(document).on('click', '[data-toggle="lightbox"]', function(event) {
-		event.preventDefault();
-		$(this).ekkoLightbox();
-	});
+	$(function () {
+		$('[data-toggle="tooltip"]').tooltip()
+	})
 
+
+	/* ========================================================================= */
+	/*  Breadcrumbs top screen = position: fixed
+	/* ========================================================================= */
+
+	var brdcrmbs =  document.getElementById('breadcrumbs'),
+		distance = $('#breadcrumbs').offset().top,
+		$window = $(window);
+
+	$window.scroll(function() {
+		if ( $window.scrollTop() >= distance ) {
+			brdcrmbs.classList.add("stay-top");
+		} else if ( $window.scrollTop() <= distance )  {
+			brdcrmbs.classList.remove("stay-top");
+		}
+	});
+	
+	
 	/* ========================================================================= */
 	/*  Sound effects
 	/* =========================================================================  */
