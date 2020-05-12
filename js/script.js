@@ -25,22 +25,15 @@ jQuery(function ($) {
 	$(function () {
 		$('[data-toggle="tooltip"]').tooltip()
 	})
-
+	
 
 	/* ========================================================================= */
-	/*  Breadcrumbs top screen = position: fixed
+	/*  Lightbox Init
 	/* ========================================================================= */
 
-	var brdcrmbs =  document.getElementById('breadcrumbs'),
-		distance = $('#breadcrumbs').offset().top,
-		$window = $(window);
-
-	$window.scroll(function() {
-		if ( $window.scrollTop() >= distance ) {
-			brdcrmbs.classList.add("stay-top");
-		} else if ( $window.scrollTop() <= distance )  {
-			brdcrmbs.classList.remove("stay-top");
-		}
+	$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+		event.preventDefault();
+		$(this).ekkoLightbox();
 	});
 	
 	
@@ -100,4 +93,25 @@ jQuery(function ($) {
 
 
 /* ============================== end script ================================= */
+});
+
+
+
+jQuery(function ($) {
+	"use strict";
+	/* ========================================================================= */
+	/*  Breadcrumbs top screen = position: fixed
+	/* ========================================================================= */
+
+	var brdcrmbs =  document.getElementById('breadcrumbs'),
+		distance = $('#breadcrumbs').offset().top,
+		$window = $(window);
+
+	$window.scroll(function() {
+		if ( $window.scrollTop() >= distance ) {
+			brdcrmbs.classList.add("stay-top");
+		} else if ( $window.scrollTop() <= distance )  {
+			brdcrmbs.classList.remove("stay-top");
+		}
+	});
 });

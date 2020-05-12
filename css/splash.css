@@ -1,11 +1,13 @@
 
 :root {
+	--bgColor: rgb(33,33,33);
 	--white: rgb(255,255,255);
-	--black: rgb(51,51,51);
-	--grey: rgb(200,200,200);
+	--whitesmoke: rgb(245,245,245);
+	--grey: rgb(186,186,186);
 	--grey2: rgb(231,231,231);
 	--grey3: rgb(247,247,247);
-	--burgundy: rgb(179,17,25);
+	--logo1: rgb(184,186,189); /* grey */
+	--logo2: rgb(179,17,25); /* burgundy */
 	--lu93Serif: 'Lora', serif;
 	--lu93Sans1: 'Open Sans', sans-serif;
 	--lu93Sans2: 'Roboto', sans-serif;
@@ -22,39 +24,44 @@
 	align-items: center;
 	justify-content: center;
 }
-.splash .logo-icon {
+.splash .container .row:nth-child(1) {
+	text-align: center;
+	padding-top: 50px;
+}
+
+.splash .logo {
 	position: relative;
-	height: 25vh;
+	padding-bottom: 15px;
+	display: inline-block;
 }
-.splash .logo-icon-half {
+.splash .logo svg {
+	width: 200px;
+	height: 200px;
+}
+.splash .logo svg:nth-child(2) {
 	position: absolute;
-	width: 100%;
-	bottom: 0;
-	padding: 48px;
-}
-@media (max-width: 991px) {
-	.splash .logo-icon-half {
-		padding: 0;
-		padding-bottom: 48px;
-	}
+	top: 0;
+	left: 0;
 }
 
 /******** Animate logo icon & title *********/
-.splash .logo-icon-half:nth-child(1) {
+.splash .logo .logo-l {
+	fill: var(--logo1);
 	opacity: 0;
 	transform: translateX(-200px);
-	animation: logo-icon-l ease-out 4s;
+	animation: logo-l ease-out 4s;
 	animation-fill-mode: forwards;
 }
-@keyframes logo-icon-l { 0%, 10% { opacity:0 } 30%, 100% { opacity:1; transform: translateX(0) } }
+@keyframes logo-l { 0%, 10% { opacity:0 } 30%, 100% { opacity:1; transform: translateX(0) } }
 
-.splash .logo-icon-half:nth-child(2) {
+.splash .logo .logo-r {
+	fill: var(--logo2);
 	opacity: 0;
 	transform: translateX(200px);
-	animation: logo-icon-l ease-out 4s;
+	animation: logo-r ease-out 4s;
 	animation-fill-mode: forwards;
 }
-@keyframes logo-icon-l { 0%, 10% { opacity:0 } 30%, 100% { opacity:1; transform: translateX(0) } }
+@keyframes logo-r { 0%, 10% { opacity:0 } 30%, 100% { opacity:1; transform: translateX(0) } }
 
 .splash #title {
 	opacity: 0;
@@ -123,12 +130,6 @@
 .languages .btn:hover {
 }
 
-@media (max-width: 991px) {
-	.splash .logo-icon-half {
-
-	}
-}
-
 /******** Buttons style *********/
 .btn {
 	margin: .375rem;
@@ -156,6 +157,8 @@
 
 /******** Language flags *********/
 .flag {
+  width: 25px;
+  height: 25px;
 	margin-top: 1em;
 	width: 1.66em;
 	visibility: hidden;
@@ -168,5 +171,33 @@
 	opacity: .9;
 	transform: translateY(0);
 	transition: visibility 0, opacity .25s linear, transform .25s linear;
-	
+}
+@media (max-width: 991px) {
+	.splash .container .row:nth-child(1) {
+		padding-top: 0;
+	}
+	.languages .flag {
+		display: none;
+	}
+}
+
+
+/*=================================================================
+	TEMP TEMP TEMP TEMP TEMP TEMP TEMP TEMP TEM
+==================================================================*/
+#wip-tag {
+	position:fixed; 
+	background-size: 195px 195px; 
+	height: 195px; 
+	width: 195px;
+	top: 0; 
+	left: 0; 
+	z-index: 9999;
+}
+@media (max-width: 991px) {
+	#wip-tag {
+		background-size: 145px 145px; 
+		height: 145px; 
+		width: 145px;
+	}
 }

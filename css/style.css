@@ -10,23 +10,24 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 :root {
 	--bgColor: rgb(33,33,33);
 	--white: rgb(255,255,255);
+	--whitesmoke: rgb(245,245,245);
 	--grey: rgb(186,186,186);
 	--grey2: rgb(231,231,231);
 	--grey3: rgb(247,247,247);
-	--burgundy: rgb(179,17,25);
+	--logo1: rgb(184,186,189); /* grey */
+	--logo2: rgb(179,17,25); /* burgundy */
 	--lu93Serif: 'Lora', serif;
 	--lu93Sans1: 'Open Sans', sans-serif;
 	--lu93Sans2: 'Roboto', sans-serif;
 	--careSans: 'Fira Sans Condensed', sans-serif;
 	--fontBold: 'Fira Sans Condensed', sans-serif;
 	--anim1: cubic-bezier(.5,0,0,1)
-} 
-html {
 }
 
 body {
 	background-color: var(--bgColor); /* grey: E5E7E6 DAD6D6 B7B5B3; dark: 333745 */
 	font-family: var(--lu93Sans1);
+	color: var(--whitesmoke);
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -51,18 +52,23 @@ pre {
 button {
 	cursor: pointer;
 }
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
 /*=================================================================
 	Basic Setup
 ==================================================================*/
 ::-moz-selection {
 	/* Code for Firefox */
 	color: #fff;
-	background: var(--burgundy);
+	background: var(--logo2);
 }
 
 ::selection {
 	color: #fff;
-	background: var(--burgundy);
+	background: var(--logo2);
 }
 
 hr {
@@ -73,47 +79,27 @@ figure {
 	margin: 0;
 }
 
+iframe {
+	border: 0;
+}
+
 a {
-	color: #fff;
+	color: var(--whitesmoke);
 	transition: all .3s ease-in 0s;
 	text-decoration: none;
 	line-height: inherit;
 	cursor: pointer;
+	transition: all .2s ease-in 0s;
 }
-
-iframe {
-	border: 0;
-}
-
 a,
 a:focus,
 a:hover {
 	text-decoration: none;
 	outline: 0;
 }
-
 a:focus,
 a:hover {
 	color: var(--white);
-}
-
-figure {
-	margin: 0;
-}
-
-a {
-	transition: all .2s ease-in 0s;
-}
-
-iframe {
-	border: 0;
-}
-
-a,
-a:focus,
-a:hover {
-	text-decoration: none;
-	outline: 0;
 }
 
 .padding-0 {
@@ -123,32 +109,30 @@ a:hover {
 /*=================================================================
 	Breadcrumbs
 ==================================================================*/
-.page #breadcrumbs {
-	background-color: rgba(33,33,33,.85);
-}
 #breadcrumbs {
 	height: 70px;
 	padding: 10px;
 	margin-bottom: 0;
-	bottom: 0;
 }
 #breadcrumbs {
 	width: 100%;
 }
-#breadcrumbs li img,
-#breadcrumbs i
- {
-	position: relative;
+#breadcrumbs .icon-logo,
+#breadcrumbs .icon-menu {
+	fill: var(--white);
+	height: 50px;
+	width: 50px;
+}
+
+#breadcrumbs .icon-logo,
+#breadcrumbs .icon-menu,
+#breadcrumbs i  {
 	opacity: .66;
 }
-#breadcrumbs li:nth-child(1) img:nth-child(2),
-#breadcrumbs li:nth-child(3) img:nth-child(2) {
-	position: absolute;
-	left: 0;
-}
-#breadcrumbs li img:hover {
-	opacity: 1;
-	transition: opacity .2s ease-in-out
+#breadcrumbs .icon-logo:hover,
+#breadcrumbs .icon-menu:hover {
+		opacity: 1;
+		transition: opacity .2s ease-in-out
 }
 #breadcrumbs i {
 	margin-left: .5em;
@@ -162,27 +146,55 @@ a:hover {
 
 .stay-top {
 	position: fixed;
-	top: 0;
+	top: 0;		
+	background-color: rgba(33,33,33,.85);
+	z-index: 999;
 }
+
 /*=================================================================
-	Pages style
+	Page STYLES
 ==================================================================*/
 section.page {
 	width: 100%;
 	display: flex;
 	justify-content: center;
 }
-@media (max-width: 480px) {
-	section.page {
-		padding: 15px 0;
-	}
+
+header {
+	position: absolute;
+	width: 100%;
+	height: calc(50vh + 355px);
+	background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover; 
+	background-position: center;
 }
 
-section.page > .container > .row:nth-child(1) {
+.page .page-breadcrumbs {
+	height: 70px;
+}
+
+.page .page-top {
+	height: calc(50vh + 355px);
+	display: table;
+}
+.page .page-intro {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.page .page-content {
+	padding-top: 45px;
+}
+
+/*
+section.page > .container-xl > .row:nth-child(1) {
 	position: relative;
 	height: calc(50vh - 355px);
 }
-section.page > .container > .row:nth-child(3) {
+section.page > .container-xl > .row:nth-child(3) {
 	padding-top: 100px;
 }
 
@@ -218,9 +230,80 @@ section.page > .container > .row:nth-child(3) {
 	vertical-align: middle;
 	font-size: 4em;
 }
+*/
 
 /*=================================================================
-	Image gallery responsive
+	Animate logo icon & title
+==================================================================*/
+.page .logo {
+	position: absolute;
+	opacity: .125;
+	top: calc(50% - 200px);
+	left: calc(50% - 200px); /* 200px =  half logo */
+	/*mix-blend-mode: overlay;*/
+}
+.page .logo svg {
+	width: 400px;
+	height: 400px;
+	fill: var(--white);
+}
+.page .logo svg:nth-child(2) {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.page .logo .logo-l {
+	opacity: 0;
+	transform: translateX(-200px);
+	animation: logo-l ease-out 4s;
+	animation-fill-mode: forwards;
+}
+@keyframes logo-l { 0%, 10% { opacity:0 } 30%, 100% { opacity:1; transform: translateX(0) } }
+
+.page .logo .logo-r {
+	opacity: 0;
+	transform: translateX(200px);
+	animation: logo-r ease-out 4s;
+	animation-fill-mode: forwards;
+}
+@keyframes logo-r { 0%, 10% { opacity:0 } 30%, 100% { opacity:1; transform: translateX(0) } }
+
+
+/*=================================================================
+	Page CONTENT
+==================================================================*/
+section.page h1 {
+	text-align: center;
+	font-size: 4em;
+}
+@media (max-width: 540px) {
+	section.page h1 {
+		font-size: 3em;
+	}
+}
+
+.page-content > p:nth-child(1)::first-letter {
+	font-size:3em;
+	padding-right:0.15em;
+	float:left;
+	line-height: 1em;
+	font-family: var(--lu93Serif);
+	font-weight: 800;
+}
+
+.page-content .p-box {
+	background-color: rgba(0,0,0,0);
+	transition: background-color .1s ease;
+}
+.page-content .p-box:hover {
+	background-color: rgba(0,0,0,.5);
+	transition: background-color .15s ease;
+}
+
+
+/*=================================================================
+	Page IMAGE GALLERY responsive
 ==================================================================*/
 .btn[class*="btn-outline-"] {
 	padding-top: .7rem;
@@ -298,12 +381,32 @@ section.page > .container > .row:nth-child(3) {
 }
 
 /*=================================================================
-	TEMP TEMP TEMP TEMP TEMP TEMP TEMP TEMP TEM
+	Footer
 ==================================================================*/
-h1, p, li {
-	color: whitesmoke;
+footer {
+	min-height: 300px;
 }
 
+/*=================================================================
+	TEMP TEMP TEMP TEMP TEMP TEMP TEMP TEMP TEM
+==================================================================*/
 .page .gallery-btn {
 	margin-top: 2.2em;
+}
+
+#wip-tag {
+	position:fixed; 
+	background-size: 195px 195px; 
+	height: 195px; 
+	width: 195px;
+	top: 0; 
+	left: 0; 
+	z-index: 9999;
+}
+@media (max-width: 991px) {
+	#wip-tag {
+		background-size: 145px 145px; 
+		height: 145px; 
+		width: 145px;
+	}
 }
