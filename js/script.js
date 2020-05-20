@@ -99,10 +99,10 @@ jQuery(function ($) {
 
 jQuery(function ($) {
 	"use strict";
+
 	/* ========================================================================= */
 	/*  Breadcrumbs top screen = position: fixed
 	/* ========================================================================= */
-
 	var brdcrmbs =  document.getElementById('breadcrumbs'),
 		distance = $('#breadcrumbs').offset().top,
 		$window = $(window);
@@ -114,4 +114,21 @@ jQuery(function ($) {
 			brdcrmbs.classList.remove("stay-top");
 		}
 	});
+
+	/* ========================================================================= */
+	/*  Smooth scrolling using jQuery easing
+	/* ========================================================================= */
+	$('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
+	if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+		var target = $(this.hash);
+		target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+		if (target.length) {
+			$('html, body').animate({
+			scrollTop: (target.offset().top - 5)
+		}, 1000, "easeInOutExpo");
+		return false;
+		}
+	}
+	});
+
 });

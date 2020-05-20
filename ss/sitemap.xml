@@ -67,42 +67,4 @@
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
   </url>
   
-  <url>
-    <loc>https://lutherieurbaine93.github.io/LU93_site3/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://lutherieurbaine93.github.io/LU93_site3/fr/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://lutherieurbaine93.github.io/LU93_site3/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ss"
-                href="https://lutherieurbaine93.github.io/LU93_site3/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://lutherieurbaine93.github.io/LU93_site3/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://lutherieurbaine93.github.io/LU93_site3/fr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://lutherieurbaine93.github.io/LU93_site3/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ss"
-                href="https://lutherieurbaine93.github.io/LU93_site3/tags/"
-                />
-  </url>
-  
 </urlset>

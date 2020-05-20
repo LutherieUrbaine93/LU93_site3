@@ -110,12 +110,10 @@ a:hover {
 	Breadcrumbs
 ==================================================================*/
 #breadcrumbs {
+	width: 100%;
 	height: 70px;
 	padding: 10px;
 	margin-bottom: 0;
-}
-#breadcrumbs {
-	width: 100%;
 }
 #breadcrumbs .icon-logo,
 #breadcrumbs .icon-menu {
@@ -151,6 +149,17 @@ a:hover {
 	z-index: 999;
 }
 
+/******* Breadcrumbs anim *******/
+#breadcrumbs #logo:hover .st0 {
+	animation-duration: 1.2s;
+	animation-name: animateLogo;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+@keyframes animateLogo {
+	from { transform: translateX(0); }
+	to { transform: translateX(-10px); }
+}
 /*=================================================================
 	Page STYLES
 ==================================================================*/
@@ -173,6 +182,7 @@ header {
 }
 
 .page .page-breadcrumbs {
+	position: relative;
 	height: 70px;
 }
 
@@ -187,6 +197,8 @@ header {
 
 .page .page-content {
 	padding-top: 45px;
+	padding-bottom: 30px;
+	min-height: 50em;
 }
 
 /*
@@ -233,19 +245,20 @@ section.page > .container-xl > .row:nth-child(3) {
 */
 
 /*=================================================================
-	Animate logo icon & title
+	Animate Logo icon Title & Down-arrow
 ==================================================================*/
 .page .logo {
 	position: absolute;
 	opacity: .125;
 	top: calc(50% - 200px);
 	left: calc(50% - 200px); /* 200px =  half logo */
+	z-index: 0;
 	/*mix-blend-mode: overlay;*/
 }
 .page .logo svg {
 	width: 400px;
 	height: 400px;
-	fill: var(--white);
+	fill: var(--whitesmoke);
 }
 .page .logo svg:nth-child(2) {
 	position: absolute;
@@ -269,13 +282,68 @@ section.page > .container-xl > .row:nth-child(3) {
 }
 @keyframes logo-r { 0%, 10% { opacity:0 } 30%, 100% { opacity:1; transform: translateX(0) } }
 
+.down {
+	position: absolute;
+	bottom: 0;
+	left: calc(50% - 50px); /* 50px =  half svg icon */
+	display: block;
+	text-align: center;
+	z-index: 15;
+}
+.down svg {
+	height: 75px;
+	width: 100px;
+	fill: var(--white);
+	-webkit-animation: pulse 1.8s infinite;
+	animation: pulse 1.8s infinite;
+}
+@-webkit-keyframes pulse {
+	from {
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+		filter:alpha(opacity=40);
+		opacity:.15;
+		transform: translateY(-5px);
+		} 50% {-ms-filter:none;
+		-webkit-filter:none;
+		filter:none;
+		opacity:.9;
+		transform: translateY(5px);
+		}
+	to {
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+		filter:alpha(opacity=40);
+		opacity:.15;
+		transform: translateY(-5px);
+	}
+}
+@keyframes pulse {
+	from {
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+		filter:alpha(opacity=40);
+		opacity:.15;
+		transform: translateY(-5px);
+			} 50% {-ms-filter:none;
+		-webkit-filter:none;
+		filter:none;
+		opacity:.9;
+		transform: translateY(5px);
+		}
+	to {
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+		filter:alpha(opacity=40);
+		opacity:.15;
+		transform: translateY(-5px);
+	}
+}
 
 /*=================================================================
 	Page CONTENT
 ==================================================================*/
 section.page h1 {
+	position: relative;
 	text-align: center;
 	font-size: 4em;
+	z-index: 99;
 }
 @media (max-width: 540px) {
 	section.page h1 {
@@ -384,7 +452,71 @@ section.page h1 {
 	Footer
 ==================================================================*/
 footer {
-	min-height: 300px;
+	position: relative;
+	width: 100%;
+	background-color: rgb(25,25,25);
+}
+body.home footer {
+	position: absolute;
+	bottom: 0;
+}
+
+body.page footer .email {
+	padding: 20px 0 50px;
+}
+body.page footer .email p {
+	opacity: .8;
+	margin-bottom: .25rem;
+}
+body.page footer .email a:hover {
+	color: var(--logo2);
+	opacity: 1;
+}
+
+
+footer .socials {
+	padding-bottom: 40px;
+}
+footer .socials ul {
+	width: 100%;
+	bottom: 80px;
+  text-align: center;
+}
+footer .socials ul li a {
+	background-color: #26292e;
+	display: flex;
+	height: 4em;
+	width: 4em;
+	border-radius: 2em;
+	padding: 1em;
+	opacity: .6;
+	border: 1px solid transparent;
+	transition: all 400ms ease-out 0s;
+}
+footer .socials ul li a svg {
+  display: block;
+  margin: auto;
+	height: 100%;
+	width: 100%;
+  fill: var(--whitesmoke);
+  opacity: .3;
+  transition: all 400ms ease-out 0s;
+}
+footer .socials ul li a:hover {
+	opacity: .9;
+	transition: all 400ms ease-out 0s;
+}
+footer .socials ul li a:hover svg {
+	opacity: .9;
+	transition: all 400ms ease-out 0s;
+}
+
+footer .copyright {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin-bottom: 10px;
+	opacity: .9;
 }
 
 /*=================================================================

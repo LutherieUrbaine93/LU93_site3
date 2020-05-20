@@ -12,9 +12,19 @@
     
     
     <item>
+      <title>Section Test</title>
+      <link>https://lutherieurbaine93.github.io/LU93_site3/fr/section/something/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://lutherieurbaine93.github.io/LU93_site3/fr/section/something/</guid>
+      <description>C’est sous l’impulsion d’une partie de l’équipe fondatrice de la première épopée des Lutherie Urbaine 1999/ 2019 que voit le jour Lutherie Urbaine 9.3. Ancrée dans le département de la Seine-Saint-Denis, et en partenariat avec des associations locales engagées, en lien avec des artistes, sportifs, pédagogues et explorateurs tous terrains, Lutherie Urbaine 9.3 projette son action autour de trois grands pôles :
+InstrumentariumUn laboratoire d’idées où naissent les thématiques d’expositions, les « Lutheries Inouïes ».</description>
+    </item>
+    
+    <item>
       <title>Actualités</title>
       <link>https://lutherieurbaine93.github.io/LU93_site3/fr/news/</link>
-      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lutherieurbaine93.github.io/LU93_site3/fr/news/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</description>
@@ -23,7 +33,7 @@
     <item>
       <title>Audio Vidéo</title>
       <link>https://lutherieurbaine93.github.io/LU93_site3/fr/audio_video/</link>
-      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lutherieurbaine93.github.io/LU93_site3/fr/audio_video/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</description>
@@ -32,7 +42,7 @@
     <item>
       <title>Contacts</title>
       <link>https://lutherieurbaine93.github.io/LU93_site3/fr/contacts/</link>
-      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lutherieurbaine93.github.io/LU93_site3/fr/contacts/</guid>
       <description>email : lutheriesurbaines9.3@gmail.com
@@ -45,7 +55,7 @@ Membres actifs bénévoles 2020
     <item>
       <title>Créations tous terrains</title>
       <link>https://lutherieurbaine93.github.io/LU93_site3/fr/offroad_creations/</link>
-      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lutherieurbaine93.github.io/LU93_site3/fr/offroad_creations/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</description>
@@ -54,7 +64,7 @@ Membres actifs bénévoles 2020
     <item>
       <title>Instrumentarium</title>
       <link>https://lutherieurbaine93.github.io/LU93_site3/fr/instrumentarium/</link>
-      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lutherieurbaine93.github.io/LU93_site3/fr/instrumentarium/</guid>
       <description>« Lutherie Inouïe » propose un parcours musical et plastique à travers des « spécimens instrumentaux » essentiellement conçus à partir de recyclage d’objets et de matériaux. Ces instruments de musique « seconde chance » ont été pour la majorité créés pour des créations musicales de Lutherie Urbaine entre 2000 et 2010.
@@ -64,7 +74,7 @@ C’est une retraite active qui leur a été proposée au sein des « Lutherie 
     <item>
       <title>Presse</title>
       <link>https://lutherieurbaine93.github.io/LU93_site3/fr/press/</link>
-      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lutherieurbaine93.github.io/LU93_site3/fr/press/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</description>
@@ -73,16 +83,16 @@ C’est une retraite active qui leur a été proposée au sein des « Lutherie 
     <item>
       <title>Pédagogie de la création</title>
       <link>https://lutherieurbaine93.github.io/LU93_site3/fr/pedagogy_creation/</link>
-      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lutherieurbaine93.github.io/LU93_site3/fr/pedagogy_creation/</guid>
       <description>Avoir un regard différent sur son environnement; découvrir et exercer sa créativité, récupérer les matériaux et objets cassés, abandonnés au pied de chez soi, leur imaginer un futur différent, concevoir et réaliser des instruments de musique nouveaux à partir de ces rebuts; pour enfin apprendre à en jouer et s’insérer dans une création musicale publique, encadrés par des musiciens professionnels.</description>
     </item>
     
     <item>
-      <title>Qui sommes-nous</title>
+      <title>Qu&#39;est ce que &lt;br&gt;Lutherie Urbaine ?</title>
       <link>https://lutherieurbaine93.github.io/LU93_site3/fr/about/</link>
-      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lutherieurbaine93.github.io/LU93_site3/fr/about/</guid>
       <description>C’est sous l’impulsion d’une partie de l’équipe fondatrice de la première épopée des Lutherie Urbaine 1999/ 2019 que voit le jour Lutherie Urbaine 9.3. Ancrée dans le département de la Seine-Saint-Denis, et en partenariat avec des associations locales engagées, en lien avec des artistes, sportifs, pédagogues et explorateurs tous terrains, Lutherie Urbaine 9.3 projette son action autour de trois grands pôles :

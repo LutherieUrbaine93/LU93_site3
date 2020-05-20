@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sub-section Test on Lutherie Urbaine 9.3</title>
+    <link>https://lutherieurbaine93.github.io/LU93_site3/fr/section/subsection/</link>
+    <description>Recent content in Sub-section Test on Lutherie Urbaine 9.3</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://lutherieurbaine93.github.io/LU93_site3/fr/section/subsection/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
