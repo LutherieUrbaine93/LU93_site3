@@ -21,7 +21,7 @@
 
 #content {
 	display: flex;
-  justify-content: center;
+	justify-content: center;
 }
 
 #table {
@@ -37,6 +37,54 @@
 		height: 100%;
 		margin-top: 70px;
 	}
+}
+
+#table .menu-banner {
+	position: absolute;
+	width: 100%;
+	height: 4.5em;
+	top: -80px;
+	left: 0;
+	padding: 0 15px;
+	transition: all .2s ease-out 0s;
+	display: flex;
+	align-items: center;
+}
+#table .menu-banner a {
+	opacity: .66;
+	transition: all .2s ease-out 0s;
+}
+#table .menu-banner a:hover {
+	opacity: .9;
+	transition: all .2s ease-out 0s;
+}
+#table .menu-banner a svg {
+	position: absolute;
+	fill: var(--whitesmoke);
+	height: 4.6em;
+	width: 70px;
+	top: 0;
+}/*
+#table .menu-banner a:hover svg:nth-child(2) {
+	fill: var(--logo2);
+}
+#table .menu-banner a:hover svg:nth-child(1) {
+	transform: translateX(0);
+	animation: logo1-wave 2s infinite;
+}
+@keyframes logo1-wave { 0% { transform: translateX(0) } 50% { transform: translateX(-2.5px) } 100% { transform: translateX(0) } }
+#table .menu-banner a:hover svg:nth-child(2) {
+	transform: translateX(0);
+	animation: logo2-wave 2s infinite;
+}
+@keyframes logo2-wave { 0% { transform: translateX(0) } 50% { transform: translateX(2.5px) } 100% { transform: translateX(0) } }
+*/
+#table .menu-banner a span {
+	position: relative;
+	font-family: var(--lu93Serif);
+	font-weight: 300;
+	font-size: 2em;
+	margin-left: 2.5em;
 }
 
 #table .row,
@@ -198,7 +246,12 @@
 	transform: scale(1);
 	transition: transform .1s ease-out;
 	-webkit-transition: transform .1s ease-out;
+	opacity: 0;
+	animation: menu-thumb ease-out 2s;
+	animation-fill-mode: forwards;
 }
+@keyframes menu-thumb { 0% { opacity:0 } 100% { opacity:1 } }
+
 #table .box h1 {
 	width:80%;
 	z-index: 99;
@@ -237,37 +290,7 @@
 
 /*=================================================================
 	Animation
-============================================================
-#table > .row .box:hover {
-	-webkit-transition: margin .1s ease-out;
-}
-@media (min-width: 960px) {
-	#table > .row:nth-child(1) div:nth-child(1) .box:hover {
-		margin: -12px 0 0 -12px;
-	}
-	#table > .row:nth-child(1) div:nth-child(2) .box:hover {
-		margin: -12px 0 0 0;
-	}
-	#table > .row:nth-child(1) div:nth-child(3) .box:hover {
-		margin: -12px 0 0 12px;
-	}
-	#table > .row:nth-child(3) div:nth-child(1) .box:hover {
-		margin: 12px 0 0 0;
-	}
-	#table > .row:nth-child(3) div:nth-child(2) .box:hover {
-		margin: 0 0 0 12px;
-	}
-	#table > .row:nth-child(4) div:nth-child(1) .box:hover {
-		margin: 12px 0 0 -12px;
-	}
-	#table > .row:nth-child(4) div:nth-child(2) .box:hover {
-		margin: 12px 0 0 0;
-	}
-	#table > .row:nth-child(4) div:nth-child(3) .box:hover {
-		margin: 12px 0 0 12px;
-	}
-}======*/
-
+==================================================================*/
 #table > .row .box:hover {
 	transition: margin .1s ease-out;
 	-webkit-transition: margin .1s ease-out;
