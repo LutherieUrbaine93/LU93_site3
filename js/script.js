@@ -103,8 +103,8 @@ jQuery(function ($) {
 	/* ========================================================================= */
 	/*  Breadcrumbs top screen = position: fixed
 	/* ========================================================================= */
-	var brdcrmbs =  document.getElementById('breadcrumbs'),
-		distance = $('#breadcrumbs').offset().top,
+	var brdcrmbs =  document.getElementById('breadcrumbs-nav'),
+		distance = $('#breadcrumbs-nav').offset().top,
 		$window = $(window);
 
 	$window.scroll(function() {
@@ -124,7 +124,7 @@ jQuery(function ($) {
 		target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
 		if (target.length) {
 			$('html, body').animate({
-			scrollTop: (target.offset().top - 5)
+			scrollTop: (target.offset().top - 70)
 		}, 1000, "easeInOutExpo");
 		return false;
 		}
