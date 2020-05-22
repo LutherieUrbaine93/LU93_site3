@@ -375,6 +375,9 @@ section.page .page-content > h2 {
 	text-align: center;
 	margin: 40px 0;
 }
+section.page .page-content > h5 {
+	margin-bottom: 1em;
+}
 
 .page-content > p:nth-child(1)::first-letter {
 	font-size:3em;
@@ -394,6 +397,18 @@ section.page .page-content > h2 {
 	transition: background-color .15s ease;
 }
 
+.separator {
+	position: relative;
+	width   : 100%;
+	z-index : 1;
+}
+.separator:before {
+  position: absolute;
+  content: "";
+  width: 25%;  /* or 100px */
+  left: 37.5%;
+  border-top: 2px solid var(--whitesmoke);
+}
 /*=================================================================
 	Page IMAGE GALLERY responsive
 ==================================================================*/
