@@ -78,13 +78,13 @@ jQuery(function ($) {
 		$(".filter").click(function() {
 
 			selectedClass = $(this).attr("data-rel");
-			$("#gallery").fadeTo(100, 0.1);
-			$("#gallery div").not("."+selectedClass).fadeOut().removeClass('animation');
+			$(".img-gallery").fadeTo(100, 0.1);
+			$(".img-gallery div").not("."+selectedClass).fadeOut().removeClass('animation');
 
 			setTimeout(function() {
 
 				$("."+selectedClass).fadeIn().addClass('animation');
-				$("#gallery").fadeTo(300, 1);
+				$(".img-gallery").fadeTo(300, 1);
 
 			}, 300);
 
@@ -97,7 +97,7 @@ jQuery(function ($) {
 
 
 
-jQuery(function ($) {
+jQuery(function ($) { /* Specific to Pages */
 	"use strict";
 
 	/* ========================================================================= */
@@ -132,3 +132,4 @@ jQuery(function ($) {
 	});
 
 });
+

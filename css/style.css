@@ -423,26 +423,38 @@ section.page #page-content > h5 {
 	-webkit-tap-highlight-color: transparent;
 }
 
-.gallery {
-	-webkit-column-count: 3;
-	-moz-column-count: 3;
-	column-count: 3;
-	-webkit-column-width: 33%;
-	-moz-column-width: 33%;
-	column-width: 33%; 
+.img-gallery > div {
+	position: relative;
 }
-.gallery .pics {
+.img-gallery .color-layer {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	border: 1px solid var(--whitesmoke); /*
+	background-color: rgba(250,250,250,.5); */
+}
+.img-gallery img {
+	opacity: .8;
+	transition: opacity .33s ease; 
+}
+.img-gallery > div:hover img {
+	opacity: 1;
+	transition: opacity .33s ease; 
+}
+
+.img-gallery .pics {
 	-webkit-transition: all 350ms ease;
 	transition: all 350ms ease; 
 }
-.gallery .animation {
+.img-gallery .animation {
 	-webkit-transform: scale(1);
 	-ms-transform: scale(1);
 	transform: scale(1); 
 }
 
 @media (max-width: 450px) {
-	.gallery {
+	.img-gallery {
 		-webkit-column-count: 1;
 		-moz-column-count: 1;
 		column-count: 1;
