@@ -83,21 +83,6 @@
   </url>
   
   <url>
-    <loc>https://lutherieurbaine93.github.io/LU93_site3/en/news/</loc>
-    <lastmod>2020-04-22T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://lutherieurbaine93.github.io/LU93_site3/fr/news/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://lutherieurbaine93.github.io/LU93_site3/en/news/"
-                />
-  </url>
-  
-  <url>
     <loc>https://lutherieurbaine93.github.io/LU93_site3/en/offroad_creations/</loc>
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -139,6 +124,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://lutherieurbaine93.github.io/LU93_site3/en/press/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lutherieurbaine93.github.io/LU93_site3/en/news/</loc>
+    <lastmod>2020-04-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://lutherieurbaine93.github.io/LU93_site3/fr/news/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lutherieurbaine93.github.io/LU93_site3/en/news/"
                 />
   </url>
   

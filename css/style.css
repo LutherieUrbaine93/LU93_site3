@@ -122,18 +122,23 @@ a:hover {
 
 /*=================================================================
 	Breadcrumbs
-==================================================================*/
+================================================================
 section.page .breadcrumbs-nav-wrapper {
 	position: absolute;
-	width: 100%;
+	width: inherit;
 	top: calc(50vh + 355px);
 	z-index: 999;
-}
+}==*/
+
 #breadcrumbs-nav {
+	position: fixed;
 	width: 100%;
+	top: 0;
 	height: 70px;
-	background-color: rgba(20,20,20,.8);
-}
+} /*
+#breadcrumbs-nav > .container > .row {
+	mix-blend-mode: exclusion;
+}*/
 #breadcrumbs-nav ul {
 	width: 100%;
 	height: 70px;
@@ -180,13 +185,13 @@ section.page .breadcrumbs-nav-wrapper {
 	right: 27.5px;
 	opacity: .66;
 }
-
+/* page_v1:;
 .stay-top {
 	position: fixed;
 	top: 0;		
 	background-color: rgba(33,33,33,.85);
 	z-index: 999;
-}
+} */
 
 /******* Breadcrumbs anim *******/
 #breadcrumbs #logo:hover .st0 {
@@ -202,10 +207,12 @@ section.page .breadcrumbs-nav-wrapper {
 /*=================================================================
 	Page STYLES
 ==================================================================*/
-header {
-	position: absolute;
+#page-bg {
+	position: fixed;
+	/* position: absolute; page_v1 */
 	width: 100%;
-	height: calc(50vh + 355px);
+	height: 100vh;
+	/* height: calc(50vh + 355px); page_v1 */
 	background-size: cover;
 	-ms-background-size: cover;
 	-o-background-size: cover;
@@ -219,7 +226,14 @@ section.page {
 	display: flex;
 	justify-content: center;
 }
-
+section.page .container {
+	position: relative;
+	background-color: rgba(20,20,20,.8);
+}
+section.page > .container {
+	min-height: calc(100vh - 250px);
+}
+/* 
 section.page .page-top {
 	height: calc(50vh + 355px);
 	display: table;
@@ -228,7 +242,7 @@ section.page .page-intro {
 	display: table-cell;
 	vertical-align: middle;
 }
-
+ page_v1 */
 section.page #page-content {
 	margin-top: 70px;
 	padding-top: 45px;
@@ -335,7 +349,7 @@ section.page h1 {
 	position: relative;
 	text-align: center;
 	font-size: 4em;
-	z-index: 99;
+	margin-bottom: 1em;
 }
 @media (max-width: 540px) {
 	section.page h1 {
@@ -380,6 +394,35 @@ section.page #page-content > h5 {
   width: 25%;  /* or 100px */
   left: 37.5%;
   border-top: 2px solid var(--whitesmoke);
+}
+
+#page-content .box {
+	position: relative;
+	width: 252px;
+	background-color: var(--bgColor);
+	border: 1px solid var(--whitesmoke);
+}
+#page-content .box img {
+	width: 250px;
+	transition: opacity .2s ease;
+}
+#page-content .box:hover img {
+	opacity: .6;
+	transition: opacity .2s ease;
+}
+#page-content .box .icon {
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	fill: var(--whitesmoke);
+	top: 200px;
+	left: 75px;
+	opacity: .5;
+	transition: opacity .2s ease;
+}
+#page-content .box:hover .icon {
+	opacity: 1;
+	transition: opacity .2s ease;
 }
 /*=================================================================
 	Page IMAGE GALLERY responsive
@@ -477,13 +520,16 @@ section.page #page-content > h5 {
 footer {
 	position: relative;
 	width: 100%;
-	background-color: rgb(25,25,25);
+	height: 250px;
 }
 body.home footer {
 	position: absolute;
 	bottom: 0;
 }
-
+footer > .container {
+	background-color: rgba(10,10,10,.9);
+	height: 100%;
+}
 body.page footer .email {
 	padding: 20px 0 50px;
 }

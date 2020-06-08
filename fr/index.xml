@@ -22,16 +22,7 @@ Dans une société toute en clivages et en exclusions, la place de l’art et de
     </item>
     
     <item>
-      <title>Actualités</title>
-      <link>https://lutherieurbaine93.github.io/LU93_site3/fr/news/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lutherieurbaine93.github.io/LU93_site3/fr/news/</guid>
-      <description>&amp;hellip; en cours</description>
-    </item>
-    
-    <item>
-      <title>Audio Vidéo</title>
+      <title>Archives vidéos, CDs et DVDs </title>
       <link>https://lutherieurbaine93.github.io/LU93_site3/fr/audio_video/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -43,26 +34,14 @@ Dans une société toute en clivages et en exclusions, la place de l’art et de
     </item>
     
     <item>
-      <title>Contacts</title>
+      <title>Qui sommes nous ?</title>
       <link>https://lutherieurbaine93.github.io/LU93_site3/fr/contacts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lutherieurbaine93.github.io/LU93_site3/fr/contacts/</guid>
-      <description>L’ASSOCIATION Bureau administratif 2020
-Anne Cotrel, présidence ;
-Pascal Butstraen, trésorier ;
-Jean Louis Mechali, vice-président ;
-Monique Lapie, secrétaire ;
-Annie Berkowitz, secrétaire adjointe
- Membres actifs bénévoles 2020
- Agnès Dufour – coordination de projets Melchior Mechali - soutien technique
-…  Artistes associés
-Alain Guazzelli,
-Jean Louis Mechali,
-Pascal Butstraen
-LES STRUCTURES AMIES ET PARTENAIRES Quai Nord (62) - site
-Flash à la Courneuve – site
-Opéra de Bouche à Oreille et la Forge Hermann / Noisy le Sec (93170) - site</description>
+      <description>L’association Conseil d’administration, membres fondateurs
+ Le collectif artistique et technique [ajout: portraits dessinés par Anne ??:-) + plus petite présentation courte et rigolote pour tous, + pour les artistes clic avec liens sur photos/vidéos ?...]  Artiste associé, pôle Pédagogie de la création Alain GUAZZELLI
+Batteur-percussionniste, interprète improvisateur et créateur de lutheries « sauvages ». Metteur en jeu de cursus pédagogiques, Alain a été l’un des initiateurs de Lutherie Urbaine en 1999 aux côtés de Jean-Louis Mechali.</description>
     </item>
     
     <item>
@@ -71,14 +50,12 @@ Opéra de Bouche à Oreille et la Forge Hermann / Noisy le Sec (93170) - site</d
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lutherieurbaine93.github.io/LU93_site3/fr/offroad_creations/</guid>
-      <description>Avoir un regard différent sur son environnement;
-découvrir et exercer sa créativité
-récupérer les matériaux et objets cassés, abandonnés au pied de chez soi,
-leur imaginer un futur différent,
-concevoir et réaliser des instruments de musique nouveaux à partir de ces rebuts;
-pour enfin apprendre à en jouer et s’insérer dans une création musicale publique,
-encadrés par des musiciens professionnels.
-  Projets en chantier : 2021 à 2024 X en construction : duo percutant et joyeux « Les Lutinouis », pour tous publics de 1 à 99</description>
+      <description>Productions pluridisciplinaires mues par un principe actif immuable :
+apprendre ... fabriquer ... jouer ...
+et créer ensemble, dès la mise en œuvre des projets.
+Thématiques environnementales, pluri-générationnel, pluri-culturel,
+au delà des étiquettes et des chapelles.
+  [à vernir: extraits vidéo 10 secondes -&amp;gt; redirection vers section Audio-Vidéo] </description>
     </item>
     
     <item>
@@ -87,7 +64,7 @@ encadrés par des musiciens professionnels.
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lutherieurbaine93.github.io/LU93_site3/fr/instrumentarium/</guid>
-      <description>L’instrumentarium, appelé aussi « les Lutheries Inouïes », est avant tout un Laboratoire d’idées où naissent différentes thématiques d’expositions.  Vidéo ou défilé de photos … Un certain nombre de ces instruments ont été imaginés et conçus entre 2000 dg 2012 pendant la première dizaine d’années de l’association Lutherie Urbaine. Elaborés dans le cadre de résidences artistiques croisées, collaborations plurielles entre les musiciens de lutherie Urbaine, les Urbs, le compositeur Jean Louis Mechali et des artistes professionnels de pays d’Afrique.</description>
+      <description>Un parcours musical et plastique principalement conçu à partir d’objets et de matériaux récupérés : tuyaux de pvc, carreaux de verre, tambours de machines à laver, casseroles, roues de vélo…  [à ajouter: défilé de photos avec noms des instruments, et audio sur chaque photo] </description>
     </item>
     
     <item>
@@ -96,7 +73,20 @@ encadrés par des musiciens professionnels.
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lutherieurbaine93.github.io/LU93_site3/fr/press/</guid>
-      <description>&amp;hellip; en cours</description>
+      <description>[à ajouter: extraits de presse ciblés (à définir desquels)] </description>
+    </item>
+    
+    <item>
+      <title>Projets</title>
+      <link>https://lutherieurbaine93.github.io/LU93_site3/fr/news/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lutherieurbaine93.github.io/LU93_site3/fr/news/</guid>
+      <description>[à travailler:]  D’autres chemins pour la musique – Cycles d’ateliers « Pédagogie de la création » Performances inouïes sur Instrumentarium – solos, duos ou trios :
+Pôle Auto-Vélo
+Pôle Maison
+Pôle Jazzy sans frontières
+Pôle Eau..Métaux…de tous Bois   En partenariats avec Quai Nord … + festival Montreuil sur Mer (asso Juliette)?  Création d’une Fanfare inouïe … « Evènementiel Installation » - geste sportif / geste sonore</description>
     </item>
     
     <item>
@@ -105,14 +95,16 @@ encadrés par des musiciens professionnels.
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lutherieurbaine93.github.io/LU93_site3/fr/pedagogy_creation/</guid>
-      <description>Avoir un regard différent sur son environnement;
-découvrir et exercer sa créativité
-récupérer les matériaux et objets cassés, abandonnés au pied de chez soi,
-leur imaginer un futur différent,
-concevoir et réaliser des instruments de musique nouveaux à partir de ces rebuts;
-pour enfin apprendre à en jouer et s’insérer dans une création musicale publique,
-encadrés par des musiciens professionnels.
-  Projets en devenir - 2020 à 2024 … X Parcours d’ateliers « East Side Stories»</description>
+      <description>X observer,
+X écouter,
+X découvrir,
+X expérimenter,
+X récupérer,
+X transformer,
+X concevoir,
+X imaginer,
+X jouer.
+ Your browser isn&#39;t invited for super fun audio time. [à compléter: extrait musique en hover(?) sur photos d&#39;instruments]  Ateliers de construction :  Ateliers de musique : </description>
     </item>
     
     <item>

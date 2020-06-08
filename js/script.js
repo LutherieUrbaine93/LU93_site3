@@ -102,7 +102,7 @@ jQuery(function ($) { /* Specific to Pages */
 
 	/* ========================================================================= */
 	/*  Breadcrumbs top screen = position: fixed
-	/* ========================================================================= */
+	/* ===================================================================
 	var brdcrmbs =  document.getElementById('breadcrumbs-nav'),
 		distance = $('#breadcrumbs-nav').offset().top,
 		$window = $(window);
@@ -113,7 +113,7 @@ jQuery(function ($) { /* Specific to Pages */
 		} else if ( $window.scrollTop() <= distance )  {
 			brdcrmbs.classList.remove("stay-top");
 		}
-	});
+	});====== */
 
 	/* ========================================================================= */
 	/*  Smooth scrolling using jQuery easing
