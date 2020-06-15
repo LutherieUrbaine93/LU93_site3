@@ -33,34 +33,6 @@
   </url>
   
   <url>
-    <loc>https://lutherieurbaine93.github.io/LU93_site3/fr/audio_video/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://lutherieurbaine93.github.io/LU93_site3/en/audio_video/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://lutherieurbaine93.github.io/LU93_site3/fr/audio_video/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://lutherieurbaine93.github.io/LU93_site3/fr/contacts/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://lutherieurbaine93.github.io/LU93_site3/en/contacts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://lutherieurbaine93.github.io/LU93_site3/fr/contacts/"
-                />
-  </url>
-  
-  <url>
     <loc>https://lutherieurbaine93.github.io/LU93_site3/fr/offroad_creations/</loc>
     <xhtml:link
                 rel="alternate"
@@ -89,20 +61,6 @@
   </url>
   
   <url>
-    <loc>https://lutherieurbaine93.github.io/LU93_site3/fr/press/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://lutherieurbaine93.github.io/LU93_site3/en/press/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://lutherieurbaine93.github.io/LU93_site3/fr/press/"
-                />
-  </url>
-  
-  <url>
     <loc>https://lutherieurbaine93.github.io/LU93_site3/fr/news/</loc>
     <xhtml:link
                 rel="alternate"
@@ -113,6 +71,20 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://lutherieurbaine93.github.io/LU93_site3/fr/news/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lutherieurbaine93.github.io/LU93_site3/fr/press/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lutherieurbaine93.github.io/LU93_site3/en/press/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://lutherieurbaine93.github.io/LU93_site3/fr/press/"
                 />
   </url>
   
@@ -141,6 +113,34 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://lutherieurbaine93.github.io/LU93_site3/fr/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lutherieurbaine93.github.io/LU93_site3/fr/contacts/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lutherieurbaine93.github.io/LU93_site3/en/contacts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://lutherieurbaine93.github.io/LU93_site3/fr/contacts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lutherieurbaine93.github.io/LU93_site3/fr/audio_video/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lutherieurbaine93.github.io/LU93_site3/en/audio_video/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://lutherieurbaine93.github.io/LU93_site3/fr/audio_video/"
                 />
   </url>
   
