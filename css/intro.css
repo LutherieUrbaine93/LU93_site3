@@ -339,3 +339,62 @@
 	transform: translate(5px, 5px);
 	opacity: .9;
 }
+
+
+
+/*=================================================================
+	Animate Logo icon Title & Down-arrow
+==================================================================*/
+.down {
+	position: absolute;
+	bottom: 0;
+	left: calc(50% - 50px); /* 50px =  half svg icon */
+	display: block;
+	text-align: center;
+	z-index: 15;
+}
+.down svg {
+	height: 75px;
+	width: 100px;
+	fill: var(--white);
+	-webkit-animation: pulse 1.8s infinite;
+	animation: pulse 1.8s infinite;
+}
+@-webkit-keyframes pulse {
+	from {
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+		filter:alpha(opacity=40);
+		opacity:.15;
+		transform: translateY(-5px);
+		} 50% {-ms-filter:none;
+		-webkit-filter:none;
+		filter:none;
+		opacity:.9;
+		transform: translateY(5px);
+		}
+	to {
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+		filter:alpha(opacity=40);
+		opacity:.15;
+		transform: translateY(-5px);
+	}
+}
+@keyframes pulse {
+	from {
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+		filter:alpha(opacity=40);
+		opacity:.15;
+		transform: translateY(-5px);
+			} 50% {-ms-filter:none;
+		-webkit-filter:none;
+		filter:none;
+		opacity:.9;
+		transform: translateY(5px);
+		}
+	to {
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+		filter:alpha(opacity=40);
+		opacity:.15;
+		transform: translateY(-5px);
+	}
+}

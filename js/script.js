@@ -19,15 +19,6 @@ jQuery(function ($) {
 
 
 	/* ========================================================================= */
-	/*  Enable tooltips everywhere
-	/* ========================================================================= */
-
-	$(function () {
-		$('[data-toggle="tooltip"]').tooltip()
-	})
-	
-
-	/* ========================================================================= */
 	/*  Lightbox Init
 	/* ========================================================================= */
 
@@ -90,10 +81,9 @@ jQuery(function ($) {
 
 		});
 	});
-
-
 /* ============================== end script ================================= */
 });
+
 
 
 
@@ -102,7 +92,7 @@ jQuery(function ($) { /* Specific to Pages */
 
 	/* ========================================================================= */
 	/*  Breadcrumbs top screen = position: fixed
-	/* ===================================================================
+	/* ========================================================================= */
 	var brdcrmbs =  document.getElementById('breadcrumbs-nav'),
 		distance = $('#breadcrumbs-nav').offset().top,
 		$window = $(window);
@@ -113,7 +103,7 @@ jQuery(function ($) { /* Specific to Pages */
 		} else if ( $window.scrollTop() <= distance )  {
 			brdcrmbs.classList.remove("stay-top");
 		}
-	});====== */
+	});
 
 	/* ========================================================================= */
 	/*  Smooth scrolling using jQuery easing
@@ -129,6 +119,71 @@ jQuery(function ($) { /* Specific to Pages */
 		return false;
 		}
 	}
+	});
+
+	/* ========================================================================= */
+	/*  Image gallery modal
+	/* ========================================================================= */
+	// Get the modal
+	let modal = document.getElementById("galleryModal");
+
+	// Get the image and insert it inside the modal - use its "alt" text as a caption
+	let img = document.getElementsByClassName("galleryImg");
+	let modalImg = document.getElementById("img01");
+	let captionText = document.getElementById("caption");
+
+	for (let i=0; i < img.length; ++i) {
+		img[i].onclick = function() {
+			modal.style.display = "block";
+			modalImg.src = this.src;
+			captionText.innerHTML = this.alt;
+		}
+	};
+	// Get the <span> element that closes the modal
+	let span = document.getElementsByClassName("close")[0];
+
+	// When the user clicks on <span> (x), close the modal
+	span.onclick = function() {
+		modal.style.display = "none";
+	}
+
+	/* ========================================================================= */
+	/*	For WordCloud2:
+	/* ========================================================================= */
+
+	/* Resize canva "responsively" */
+	function resize(){ 
+		var parentWidth = jQuery('#wc_canvas').parent().outerWidth();
+		var parentHeight =  jQuery('#wc_canvas').parent().outerHeight();
+		jQuery('#wc_canvas').attr('width', parentWidth * .66);
+		jQuery('#wc_canvas').attr('height', parentWidth * .33);
+
+		// draw cloud here
+		WordCloud( document.getElementById('wc_canvas'), {
+			list: [['observer', 3], ['écouter', 3], ['découvrir', 3], 
+				['expérimenter', 2], ['récupérer', 2], ['transformer', 2],
+				['concevoir', 1], ['imaginer', 1], ['jouer', 1]],
+			fontFamily: 'Lora',
+			fontWeight: 300,
+			color: 'random-light',
+			backgroundColor: '#212121',
+			shape: 'square',
+			shrinkToFit: true,
+			origin: [parentWidth / 2, 0],
+
+			weightFactor: function (size) {
+				return size * (15 * jQuery('#wc_canvas').width() / jQuery('#wc_canvas').height());
+			},
+
+
+		}); // end wordcloud
+	}
+
+	$(document).ready(function(){
+		resize();
+		jQuery(window).on('resize', function(){                      
+		    resize();
+		});
 	});
 
 });
