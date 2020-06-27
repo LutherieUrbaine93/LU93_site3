@@ -47,7 +47,7 @@ jQuery(function ($) {
 	});
 ===  */
 
-	$(".box").each(function(i) {
+	$(".box-audio").each(function(i) {
 		if (i != 0) {
 			$("#sound-").clone().attr("id", "sound-" + i).appendTo($(this).parent());
 		}
@@ -57,34 +57,18 @@ jQuery(function ($) {
 	});
 	$("#sound-").attr("id", "sound-0");
 
-
-	/* ========================================================================= */
-	/*  Image gallery responsive
-	/* =========================================================================  */
-
-	$(function() {
-		
-		var selectedClass = "";
-
-		$(".filter").click(function() {
-
-			selectedClass = $(this).attr("data-rel");
-			$(".img-gallery").fadeTo(100, 0.1);
-			$(".img-gallery div").not("."+selectedClass).fadeOut().removeClass('animation');
-
-			setTimeout(function() {
-
-				$("."+selectedClass).fadeIn().addClass('animation');
-				$(".img-gallery").fadeTo(300, 1);
-
-			}, 300);
-
-		});
+	$(".member").each(function(i) {
+		if (i != 0) {
+			$("#sound-").clone().attr("id", "sound-" + i).appendTo($(this).parent());
+		}
+		$(this).data("sound", i);
+	}).mouseleave(function() {
+		$("#sound-" + $(this).data("sound"))[0].pause();
 	});
+	$("#sound-").attr("id", "sound-0");
+
 /* ============================== end script ================================= */
 });
-
-
 
 
 jQuery(function ($) { /* Specific to Pages */
@@ -129,7 +113,7 @@ jQuery(function ($) { /* Specific to Pages */
 
 	// Get the image and insert it inside the modal - use its "alt" text as a caption
 	let img = document.getElementsByClassName("galleryImg");
-	let modalImg = document.getElementById("img01");
+	let modalImg = document.getElementById("zoomedImg");
 	let captionText = document.getElementById("caption");
 
 	for (let i=0; i < img.length; ++i) {
@@ -165,11 +149,12 @@ jQuery(function ($) { /* Specific to Pages */
 				['concevoir', 1], ['imaginer', 1], ['jouer', 1]],
 			fontFamily: 'Lora',
 			fontWeight: 300,
-			color: 'random-light',
+			color: 'darkgrey',
+			rotateRatio: 0,
 			backgroundColor: '#212121',
 			shape: 'square',
 			shrinkToFit: true,
-			origin: [parentWidth / 2, 0],
+			origin: [parentWidth / 2.5, 0],
 
 			weightFactor: function (size) {
 				return size * (15 * jQuery('#wc_canvas').width() / jQuery('#wc_canvas').height());
