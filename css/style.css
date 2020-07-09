@@ -204,7 +204,6 @@ body.page #page-content a {
 /* Flexbox Container classes */
 @media only screen and (min-device-width: 541px) {
 	.flex-cont { display: flex }
-	.juco-spbe { justify-content: space-between }
 }
 .alit-c { align-items: center }
 .juco-sa { justify-content: space-around; }
@@ -216,7 +215,9 @@ body.page #page-content a {
 .f1 { flex: 1 }
 .flgr-1 { flex-grow: 1 }
 @media only screen and (min-device-width: 541px) {
+	.w-23 { width: 23% }
 	.w-30 { width: 30% }
+	.w-50 { width: 50% }
 	.w-60 { width: 60% }
 }
 
@@ -509,18 +510,22 @@ a.box:hover {
 	opacity: 1;
 	transition: opacity .2s ease;
 }
-.separator {
+[class^="separator"] {
 	position: relative;
 	width: 100%;
-	height: 2.5em;
+	height: 2px;
+	margin: 2em 0;
 	z-index: 1;
 }
-.separator:before {
+[class^="separator"]:before {
   position: absolute;
   content: "";
   width: 25%;  /* or 100px */
   left: 37.5%;
   border-top: 2px solid var(--whitesmoke);
+}
+.separator-offroad:before {
+  border-color: darkslateblue;
 }
 /*=================================================================
 	Page IMAGE GALLERY responsive
