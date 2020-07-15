@@ -3,67 +3,67 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://lutherieurbaine93.com/english/about/</loc>
+    <loc>/english/about/</loc>
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lutherieurbaine93.com/english/audio_video/</loc>
+    <loc>/english/audio_video/</loc>
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lutherieurbaine93.com/english/contacts/</loc>
+    <loc>/english/contacts/</loc>
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lutherieurbaine93.com/english/</loc>
+    <loc>/english/</loc>
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lutherieurbaine93.com/english/instrumentarium/</loc>
+    <loc>/english/instrumentarium/</loc>
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lutherieurbaine93.com/</loc>
+    <loc>/</loc>
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://lutherieurbaine93.com/fr/"
+                href="/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://lutherieurbaine93.com/en/"
+                href="/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ss"
-                href="https://lutherieurbaine93.com/"
+                href="/"
                 />
   </url>
   
   <url>
-    <loc>https://lutherieurbaine93.com/english/offroad_creations/</loc>
+    <loc>/english/offroad_creations/</loc>
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lutherieurbaine93.com/english/pedagogy_creation/</loc>
+    <loc>/english/pedagogy_creation/</loc>
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lutherieurbaine93.com/english/press/</loc>
+    <loc>/english/press/</loc>
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lutherieurbaine93.com/english/news/</loc>
+    <loc>/english/news/</loc>
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
   </url>
   

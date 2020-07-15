@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sections on Lutherie Urbaine 9.3</title>
-    <link>https://lutherieurbaine93.com/fr/section/</link>
+    <link>/fr/section/</link>
     <description>Recent content in Sections on Lutherie Urbaine 9.3</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://lutherieurbaine93.com/fr/section/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/fr/section/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Section Test</title>
-      <link>https://lutherieurbaine93.com/fr/section/something/</link>
+      <link>/fr/section/something/</link>
       <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://lutherieurbaine93.com/fr/section/something/</guid>
+      <guid>/fr/section/something/</guid>
       <description>C’est sous l’impulsion d’une partie de l’équipe fondatrice de la première épopée des Lutherie Urbaine 1999/ 2019 que voit le jour Lutherie Urbaine 9.3. Ancrée dans le département de la Seine-Saint-Denis, et en partenariat avec des associations locales engagées, en lien avec des artistes, sportifs, pédagogues et explorateurs tous terrains, Lutherie Urbaine 9.3 projette son action autour de trois grands pôles :
 Dans une société toute en clivages et en exclusions, la place de l’art et de l’éducation artistique populaire est un acte de résistance,InstrumentariumUn laboratoire d’idées où naissent les thématiques d’expositions, les « Lutheries Inouïes ».</description>
     </item>

@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lutherie Urbaine 9.3</title>
-    <link>https://lutherieurbaine93.com/fr/</link>
+    <link>/fr/</link>
     <description>Recent content on Lutherie Urbaine 9.3</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://lutherieurbaine93.com/fr/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/fr/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Section Test</title>
-      <link>https://lutherieurbaine93.com/fr/section/something/</link>
+      <link>/fr/section/something/</link>
       <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://lutherieurbaine93.com/fr/section/something/</guid>
+      <guid>/fr/section/something/</guid>
       <description>C’est sous l’impulsion d’une partie de l’équipe fondatrice de la première épopée des Lutherie Urbaine 1999/ 2019 que voit le jour Lutherie Urbaine 9.3. Ancrée dans le département de la Seine-Saint-Denis, et en partenariat avec des associations locales engagées, en lien avec des artistes, sportifs, pédagogues et explorateurs tous terrains, Lutherie Urbaine 9.3 projette son action autour de trois grands pôles :
 Dans une société toute en clivages et en exclusions, la place de l’art et de l’éducation artistique populaire est un acte de résistance,InstrumentariumUn laboratoire d’idées où naissent les thématiques d’expositions, les « Lutheries Inouïes ».</description>
     </item>
     
     <item>
       <title>Créations tous terrains</title>
-      <link>https://lutherieurbaine93.com/fr/offroad_creations/</link>
+      <link>/fr/offroad_creations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lutherieurbaine93.com/fr/offroad_creations/</guid>
+      <guid>/fr/offroad_creations/</guid>
       <description>Œuvres musicales et artistiques tous formats… du solo à une centaine de participants… en synergie avec les instrumentarium des lutheries inouïes.Saisons 2019/2020/2021 … 2024« East Side Stories »Dans le cadre de la préparation de l’Olympiade culturelle en Seine-Saint-Denis qui démarrera à l’automne 2020, Lutherie Urbaine 9.3. et Opéra de bouche à Oreille réunissent leurs savoir-faire et compétences respectives pour élaborer une comédie musicale du 21e, une création alliant principes sportifs et artistiques, scénographies instrumentales et plastiques illustrant les évolutions environnementales…  Arts plastiques, danse, musique, sport et voix : avec l’équipe fondatrice de créateurs Carmello Agnello, mise en scène-scénario - Alain Guazzelli, scénographie instrumentale-musique- Jean Louis Mechali, compositions-réarrangements ; Stella Moretti, chorégraphie, danse.</description>
     </item>
     
     <item>
       <title>Instrumen&amp;shy;tarium</title>
-      <link>https://lutherieurbaine93.com/fr/instrumentarium/</link>
+      <link>/fr/instrumentarium/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lutherieurbaine93.com/fr/instrumentarium/</guid>
+      <guid>/fr/instrumentarium/</guid>
       <description>Un parcours musical et plastique principalement conçu à partir d’objets et de matériaux récupérés : tuyaux de pvc, carreaux de verre, tambours de machines à laver, casseroles, roues de vélo… </description>
     </item>
     
     <item>
       <title>Clef en main</title>
-      <link>https://lutherieurbaine93.com/fr/news/</link>
+      <link>/fr/news/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lutherieurbaine93.com/fr/news/</guid>
+      <guid>/fr/news/</guid>
       <description>Expositions d’instruments de musique : les Lutheries InouïesInstallations sur sites : photos, pôles instrumentaux, panneaux do it yourself…
 Vernissages : performances musicales à partir des pôles instrumentaux
 Cycles d’ateliers de construction instrumentale à partir de recyclages et récupération d’objets du quotidien
@@ -54,46 +54,46 @@ Dans une société toute en clivages et en exclusions, la place de l’art et de
     
     <item>
       <title>La presse en a parlé</title>
-      <link>https://lutherieurbaine93.com/fr/press/</link>
+      <link>/fr/press/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lutherieurbaine93.com/fr/press/</guid>
+      <guid>/fr/press/</guid>
       <description>Les apprentis sorciers de Lutherie UrbaineL’histoire dont il est question ici part d’un projet imaginé en 2000, appelé « Lutteries urbaines et lutherie urbaine ». Fabriquer des instruments de musique à partir de rebuts est en effet une forme de lutte. Une insoumission face au déterminisme social qui veut que chaque individu, chaque chose, doit avoir la place qu’on lui désigne ou qu’on lui accorde.</description>
     </item>
     
     <item>
       <title>Pédagogie de la création</title>
-      <link>https://lutherieurbaine93.com/fr/pedagogy_creation/</link>
+      <link>/fr/pedagogy_creation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lutherieurbaine93.com/fr/pedagogy_creation/</guid>
+      <guid>/fr/pedagogy_creation/</guid>
       <description> Ateliers de construction&amp;times; Ateliers de musique&amp;times;</description>
     </item>
     
     <item>
       <title>Qu&#39;est ce que &lt;br&gt;Lutherie Urbaine ?</title>
-      <link>https://lutherieurbaine93.com/fr/about/</link>
+      <link>/fr/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lutherieurbaine93.com/fr/about/</guid>
+      <guid>/fr/about/</guid>
       <description>Dans une société toute en clivages et en exclusions, la place de l’art et de l’éducation artistique populaire est un acte de résistance,C’est sous l’impulsion d’une partie de l’équipe fondatrice de la première épopée des Lutherie Urbaine 1999/ 2019 que voit le jour Lutherie Urbaine 9.3. Ancrée dans le département de la Seine-Saint-Denis, et en partenariat avec des associations locales engagées, en lien avec des artistes, sportifs, pédagogues et explorateurs tous terrains, Lutherie Urbaine 9.</description>
     </item>
     
     <item>
       <title>Qui sommes nous ?</title>
-      <link>https://lutherieurbaine93.com/fr/contacts/</link>
+      <link>/fr/contacts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lutherieurbaine93.com/fr/contacts/</guid>
+      <guid>/fr/contacts/</guid>
       <description>L&#39;équipe AnneJean louisPascalAgnesAlainLaurenceMelchiorAdrienYour browser isn&#39;t invited for super fun audio time.Your browser isn&#39;t invited for super fun audio time.Your browser isn&#39;t invited for super fun audio time.Your browser isn&#39;t invited for super fun audio time.</description>
     </item>
     
     <item>
       <title>Archives vidéos, CDs et DVDs </title>
-      <link>https://lutherieurbaine93.com/fr/audio_video/</link>
+      <link>/fr/audio_video/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lutherieurbaine93.com/fr/audio_video/</guid>
+      <guid>/fr/audio_video/</guid>
       <description>Lutherie Urbaine à Kinshasa Kinshasa - 2006   Atelier musique Sharp Sharp Soweto - 2008     « P’TIT GARS » - Extrait du fil d&amp;rsquo;Ariane     Extrait de Les Lixirs     Extrait de Sharp Sharp    </description>
     </item>
     
