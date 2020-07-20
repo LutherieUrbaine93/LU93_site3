@@ -3,67 +3,67 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://lutherieurbaine93.com/english/about/</loc>
+    <loc>http://localhost:1313/LU93_site3/english/about/</loc>
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lutherieurbaine93.com/english/audio_video/</loc>
+    <loc>http://localhost:1313/LU93_site3/english/audio_video/</loc>
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lutherieurbaine93.com/english/contacts/</loc>
+    <loc>http://localhost:1313/LU93_site3/english/contacts/</loc>
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lutherieurbaine93.com/english/</loc>
+    <loc>http://localhost:1313/LU93_site3/english/</loc>
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lutherieurbaine93.com/english/instrumentarium/</loc>
+    <loc>http://localhost:1313/LU93_site3/english/instrumentarium/</loc>
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lutherieurbaine93.com/</loc>
+    <loc>http://localhost:1313/LU93_site3/</loc>
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://lutherieurbaine93.com/fr/"
+                href="http://localhost:1313/LU93_site3/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://lutherieurbaine93.com/en/"
+                href="http://localhost:1313/LU93_site3/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ss"
-                href="https://lutherieurbaine93.com/"
+                href="http://localhost:1313/LU93_site3/"
                 />
   </url>
   
   <url>
-    <loc>https://lutherieurbaine93.com/english/offroad_creations/</loc>
+    <loc>http://localhost:1313/LU93_site3/english/offroad_creations/</loc>
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lutherieurbaine93.com/english/pedagogy_creation/</loc>
+    <loc>http://localhost:1313/LU93_site3/english/pedagogy_creation/</loc>
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lutherieurbaine93.com/english/press/</loc>
+    <loc>http://localhost:1313/LU93_site3/english/press/</loc>
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lutherieurbaine93.com/english/news/</loc>
+    <loc>http://localhost:1313/LU93_site3/english/news/</loc>
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
   </url>
   
